@@ -1,0 +1,183 @@
+
+public class Assignment1 {
+	
+	public static void Prob1() {
+		
+		int Fno = 100;
+		int Sno = 200;
+		int Tno = 300;
+	System.out.println("Problem 1:\nB/f Swapping");
+	System.out.println("Fno :" + Fno+ "\t" + "Sno:" + Sno + "\t" + "Tno:" + Tno);
+		int temp= 0;
+		temp = Fno;
+		Fno = Sno;
+		Sno = Tno;
+		Tno =  temp;
+		System.out.println("A/f Swapping");
+		System.out.println("Fno :" + Fno+ "\t" + "Sno:" + Sno + "\t" + "Tno:" + Tno);
+		}
+	
+	public static void Prob2() {
+		
+		int Fno = 100;
+		int Sno = 200;
+		int Tno = 300;
+	System.out.println("\nProblem 2:\nB/f Swapping");
+	System.out.println("Fno :" + Fno+ "\t" + "Sno:" + Sno + "\t" + "Tno:" + Tno);
+		Fno = Sno;
+		Sno = Tno;
+		Tno = Sno -  Fno;
+		System.out.println("A/f Swapping");
+		System.out.println("Fno :" + Fno+ "\t" + "Sno:" + Sno + "\t" + "Tno:" + Tno);
+		}
+	
+public static void Prob3() {
+		
+		int Fno = 100;
+		int Sno = 200;
+		int Tno = 300;
+		int Fourthno = 400;
+	System.out.println("\nProblem 3:\nB/f Swapping");
+	System.out.println("Fno :" + Fno+ "\t" + "Sno:" + Sno + "\t" + "Tno:" + Tno + "\t" + "Fourthno:" + Fourthno);
+		int temp = 0;
+		temp = Fno;
+		Fno = Sno;
+		Sno = Tno;
+		Tno = Fourthno;
+		Fourthno = temp;
+		System.out.println("A/f Swapping");
+		System.out.println("Fno :" + Fno+ "\t" + "Sno:" + Sno + "\t" + "Tno:" + Tno + "\t" + "Fourthno:" + Fourthno);
+		}
+	
+public static void Prob4() {
+	
+	int Fno = 100;
+	int Sno = 200;
+	int Tno = 300;
+	int Fourthno = 400;
+System.out.println("\nProblem 4:\nB/f Swapping");
+System.out.println("Fno :" + Fno+ "\t" + "Sno:" + Sno + "\t" + "Tno:" + Tno + "\t" + "Fourthno:" + Fourthno);
+	Fno = Sno;
+	Sno = Tno;
+	Tno = Fourthno;
+	Fourthno = Tno - Sno;
+	System.out.println("A/f Swapping");
+	System.out.println("Fno :" + Fno+ "\t" + "Sno:" + Sno + "\t" + "Tno:" + Tno + "\t" + "Fourthno:" + Fourthno);
+	}
+
+public static void Prob5() {
+	 
+	int cost = 699;
+	double gst = 0.18;
+	double final_Cost = cost + (cost*gst);  
+	
+	System.out.println("\nProblem 5:");
+	System.out.println("Final Cost of Jiofibre plan is:" + final_Cost);
+	
+}
+
+public static void Prob6() {
+	int orderQuantity = 2;
+	double cost = 399.0;
+	double discount = 0.20;
+	double Totalcost = orderQuantity*cost;
+	
+	double bill = orderQuantity*cost - (Totalcost*discount);
+	System.out.println("\nProblem 6:");
+	System.out.println("Bill amount is:" + bill);
+}
+
+
+public static void Prob7() {
+	int Vikram_Salary = 85000;
+	double tax_amt = Vikram_Salary*0.20;
+	
+	System.out.println("\nProblem 7:");
+	System.out.println("The tax amount is:" + tax_amt);
+}
+
+public static void Prob8() {
+
+	int p= 500000;
+	int time=5;
+	double rate= 6.8;
+	double interest_amt= p*time*rate/100;
+	double final_amt= interest_amt+p;
+	
+	System.out.println("\nProblem 8:\nInterest Amount is:" + interest_amt);
+	System.out.println("Final Amount is:" + final_amt);
+	
+}
+	
+public static void Prob9() {
+	
+	int salary = 85000;
+	double ta= 0.15*salary;
+	double da = 0.20*salary;
+	double hra = 0.18*salary;
+	double pf = 0.20*salary;
+	double tax = 0.25*salary;
+	double gross_amt= salary+ta+da+hra;
+	double net_amt= gross_amt-(pf+tax);
+	
+	System.out.println("\nProblem 9:\nGross Amount is:" + gross_amt +"\nNet Amount is:" + net_amt);
+}
+	
+	public static void main(String[] args)
+	{
+		Prob1();
+		Prob2();
+		Prob3();
+		Prob4();
+		Prob5();
+		Prob6();
+		Prob7();
+		Prob8();
+		Prob9();
+
+	}
+
+}
+
+//
+***********Output***********
+Problem 1:
+B/f Swapping
+Fno :100	Sno:200	Tno:300
+A/f Swapping
+Fno :200	Sno:300	Tno:100
+
+Problem 2:
+B/f Swapping
+Fno :100	Sno:200	Tno:300
+A/f Swapping
+Fno :200	Sno:300	Tno:100
+
+Problem 3:
+B/f Swapping
+Fno :100	Sno:200	Tno:300	Fourthno:400
+A/f Swapping
+Fno :200	Sno:300	Tno:400	Fourthno:100
+
+Problem 4:
+B/f Swapping
+Fno :100	Sno:200	Tno:300	Fourthno:400
+A/f Swapping
+Fno :200	Sno:300	Tno:400	Fourthno:100
+
+Problem 5:
+Final Cost of Jiofibre plan is:824.8199999999999
+
+Problem 6:
+Bill amount is:638.4
+
+Problem 7:
+The tax amount is:17000.0
+
+Problem 8:
+Interest Amount is:170000.0
+Final Amount is:670000.0
+
+Problem 9:
+Gross Amount is:130050.0
+Net Amount is:91800.0
